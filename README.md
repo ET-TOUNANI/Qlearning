@@ -1,6 +1,13 @@
 # Qlearning Algorithm
 
-<img src="demo/1.png"\>
+<img src="demo/1.png" width="400" height="400" />
+
+## Table of Contents
+
+- [Qlearning Algorithm](#qlearning-algorithm)
+  - [Introduction](#introduction)
+  - [Environment](#environment)
+  - [Q-learning](#q-learning)
 
 ## Introduction
 
