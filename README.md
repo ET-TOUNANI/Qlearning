@@ -27,7 +27,7 @@ Q-learning can identify an optimal action-selection policy for any given finite 
 
 A Q-learning agent interacts with the environment repeatedly. In each time step, the agent chooses an action, and the environment returns an observation and a reward. The goal is to maximize the total reward.
 
-In this project, we will use Q-learning to train a taxi to pick up and drop off passengers at the right location.
+In this project, we will use Q-learning to solve a grid world problem.
 
 We will use two different approaches to solve this problem. In the first approach, we will use a sequential way to solve the problem. In the second approach, we will use a multi-agent approach to solve the problem.
 
@@ -645,3 +645,8 @@ In this project, we explored two different approaches to solving the taxi proble
 Both approaches have their advantages and limitations, and the choice of approach depends on the specific problem and requirements. Q-learning is a powerful technique in reinforcement learning and can be applied to various scenarios.
 
 By experimenting with different parameters, environments, and approaches, we can further optimize and improve the performance of Q-learning algorithms.
+
+# Author
+
+Abderrahmane ET-TOUNANI - [Github](https://github.com/ET-TOUNANI)
+All rights reserved :D

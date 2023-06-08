@@ -3,6 +3,9 @@ package com.ettounani;
 import java.util.Random;
 
 import static com.ettounani.QLUtils.*;
+/*
+Coded with love by Abderrahmane Ettounani
+ */
 
 public class QLearning {
 

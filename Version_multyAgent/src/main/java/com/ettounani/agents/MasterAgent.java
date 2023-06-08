@@ -10,7 +10,9 @@ import jade.lang.acl.ACLMessage;
 
 import static com.ettounani.QLUtils.*;
 
-
+/*
+ * This agent is the master agent that will receive the Q-TABLE from the agent
+ */
 public class MasterAgent extends Agent {
     protected void setup() {
         DFAgentDescription dfd = new DFAgentDescription();

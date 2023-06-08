@@ -1,5 +1,7 @@
 package com.ettounani;
-
+/*
+Coded with love by Abderrahmane Ettounani
+ */
 public class QLUtils {
     public static final double ALPHA = 0.1;
     public static final double GAMMA = 0.9;

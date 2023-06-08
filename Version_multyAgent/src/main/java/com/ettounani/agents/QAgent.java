@@ -14,6 +14,9 @@ import java.util.Random;
 import static com.ettounani.QLUtils.*;
 
 
+/*
+Coded with love by Abderrahmane Ettounani
+ */
 public class QAgent extends Agent {
     double[][] qTable = new double[GRID_SIZE*GRID_SIZE][ACTIONS_SIZE];
     int stateI=0;
