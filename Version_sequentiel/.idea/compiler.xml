@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Version_sequential" />
+        <module name="Version_sequentiel" />
       </profile>
     </annotationProcessing>
   </component>
