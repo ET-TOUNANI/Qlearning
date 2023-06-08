@@ -14,7 +14,7 @@
   - [Implementation](#implementation)
   - [Results](#results)
 - [Second Approach : Multi-agent Q-learning](#second-approach--multi-agent-q-learning)
-  - [Q-learning Algorithm](#q-learning-algorithm-1)
+  - [Steps](#steps-1)
   - [Implementation](#implementation-1)
   - [Results](#results-1)
 - [Conclusion](#conclusion)
@@ -73,7 +73,7 @@ public class QLUtils {
 4. For all possible actions from the state (S') select the one with the highest Q-value.
 5. Update Q-table values using the equation.
 
-   $$Q(s_t, a_t) = Q(s_t, a_t) + \alpha * (R_t + \gamma * max(Q(s_{t+1}, a)) - Q(s_t, a_t))$$
+$$Q(s_t, a_t) = Q(s_t, a_t) + \alpha * (R_t + \gamma * max(Q(s_{t+1}, a)) - Q(s_t, a_t))$$
 
 6. Set the next state as the current state.
 7. If goal state is reached, then end and repeat the process.
