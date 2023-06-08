@@ -67,16 +67,17 @@ public class QLUtils {
 
 ### Steps
 
-> step 1: Initialize the Q-table to all zeros.
-> step 2: Start exploring actions: For each state, select any one among all possible actions for the current state (S).
-> step 3: Travel to the next state (S') as a result of that action (a).
-> step 4: For all possible actions from the state (S') select the one with the highest Q-value.
-> step 5: Update Q-table values using the equation.
-> $$Q(s_t, a_t) = Q(s_t, a_t) + \alpha * (R_t + \gamma * max(Q(s_{t+1}, a)) - Q(s_t, a_t))$$
+1. Initialize the Q-table to all zeros.
+2. Start exploring actions: For each state, select any one among all possible actions for the current state (S).
+3. Travel to the next state (S') as a result of that action (a).
+4. For all possible actions from the state (S') select the one with the highest Q-value.
+5. Update Q-table values using the equation.
 
-> step 6: Set the next state as the current state.
-> step 7: If goal state is reached, then end and repeat the process.
-> step 8: If it arrives at a dangerous location, then end and repeat the process.
+   $$Q(s_t, a_t) = Q(s_t, a_t) + \alpha * (R_t + \gamma * max(Q(s_{t+1}, a)) - Q(s_t, a_t))$$
+
+6. Set the next state as the current state.
+7. If goal state is reached, then end and repeat the process.
+8. If it arrives at a dangerous location, then end and repeat the process.
 
 ### Implementation
 
@@ -271,11 +272,11 @@ An implementation of the multi-agent Q-learning approach for solving the grid wo
 
 ### Steps
 
-> step 1 : Initialize the Q-values for each state-action pair for each agent to arbitrary values.
-> step 2 : For each agent, select an action using the epsilon-greedy policy.
-> step 3 : Execute the action and observe the reward and the next state.
-> step 4 : Update the Q-value for the state-action pair using the Bellman equation.
-> step 5 : Repeat steps 2-4 until the goal state is reached.
+- step 1 : Initialize the Q-values for each state-action pair for each agent to arbitrary values.
+- step 2 : For each agent, select an action using the epsilon-greedy policy.
+- step 3 : Execute the action and observe the reward and the next state.
+- step 4 : Update the Q-value for the state-action pair using the Bellman equation.
+- step 5 : Repeat steps 2-4 until the goal state is reached.
 
 ### Implementation
 
